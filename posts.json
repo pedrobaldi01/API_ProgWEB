@@ -5,7 +5,7 @@
         "descricao": "Como organizar o conteúdo principal de uma página.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-04-01",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "descricao": "Elementos que tornam páginas mais claras e acessíveis.",
         "autor": "Bruno Alves",
         "dataPublicacao": "2026-04-02",
-        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/bruno-alves.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "descricao": "Campos e rótulos para receber dados corretamente.",
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-04-03",
-        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "descricao": "Criando caminhos simples entre páginas do site.",
         "autor": "Daniel Rocha",
         "dataPublicacao": "2026-04-04",
-        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/daniel-rocha.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "descricao": "A importância de textos alternativos objetivos.",
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-05",
-        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "descricao": "Aplicando cores, fontes e espaçamentos ao HTML.",
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-04-06",
-        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "descricao": "Entendendo margem, borda e preenchimento.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-04-07",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "descricao": "Distribuindo conteúdos em colunas organizadas.",
         "autor": "Bruno Alves",
         "dataPublicacao": "2026-04-08",
-        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/bruno-alves.jpg"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "descricao": "Alinhando itens de modo prático e responsivo.",
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-04-09",
-        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "descricao": "Adaptando a página para celular, tablet e desktop.",
         "autor": "Daniel Rocha",
         "dataPublicacao": "2026-04-10",
-        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/daniel-rocha.jpg"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "descricao": "Pequenos cuidados para ampliar o público do site.",
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-11",
-        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "descricao": "Como tornar uma navegação mais intuitiva.",
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-04-12",
-        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "descricao": "Adicionando comportamento às páginas HTML.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-04-13",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "descricao": "Armazenando informações para usar no código.",
         "autor": "Bruno Alves",
         "dataPublicacao": "2026-04-14",
-        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/bruno-alves.jpg"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "descricao": "Separando ações para evitar repetição.",
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-04-15",
-        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "descricao": "Executando ações após interação do usuário.",
         "autor": "Daniel Rocha",
         "dataPublicacao": "2026-04-16",
-        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/daniel-rocha.jpg"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "descricao": "Alterando conteúdo exibido diretamente na página.",
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-17",
-        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "descricao": "Agrupando dados relacionados em uma estrutura.",
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-04-18",
-        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "descricao": "Trabalhando com listas de informações.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-04-19",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     },
     {
         "id": 20,
@@ -157,7 +157,7 @@
         "descricao": "Criando uma nova lista a partir de dados existentes.",
         "autor": "Bruno Alves",
         "dataPublicacao": "2026-04-20",
-        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/bruno-alves.jpg"
     },
     {
         "id": 21,
@@ -165,7 +165,7 @@
         "descricao": "Selecionando apenas os itens necessários.",
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-04-21",
-        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
     },
     {
         "id": 22,
@@ -173,7 +173,7 @@
         "descricao": "Mostrando mensagens claras quando algo falhar.",
         "autor": "Daniel Rocha",
         "dataPublicacao": "2026-04-22",
-        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/daniel-rocha.jpg"
     },
     {
         "id": 23,
@@ -181,7 +181,7 @@
         "descricao": "Utilizando recursos disponíveis no front-end.",
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-23",
-        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
     },
     {
         "id": 24,
@@ -189,7 +189,7 @@
         "descricao": "Entendendo como cliente e servidor se comunicam.",
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-04-24",
-        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
     },
     {
         "id": 25,
@@ -197,7 +197,7 @@
         "descricao": "Buscando dados externos com JavaScript.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-04-25",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     },
     {
         "id": 26,
@@ -205,7 +205,7 @@
         "descricao": "Formato usado para transferir dados da API.",
         "autor": "Bruno Alves",
         "dataPublicacao": "2026-04-26",
-        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/bruno-alves.jpg"
     },
     {
         "id": 27,
@@ -213,7 +213,7 @@
         "descricao": "Criando uma API simples para o portfólio.",
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-04-27",
-        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
     },
     {
         "id": 28,
@@ -221,7 +221,7 @@
         "descricao": "Separando operações de consulta e cadastro.",
         "autor": "Daniel Rocha",
         "dataPublicacao": "2026-04-28",
-        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/daniel-rocha.jpg"
     },
     {
         "id": 29,
@@ -229,7 +229,7 @@
         "descricao": "Descrevendo endpoints e respostas da API.",
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-29",
-        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
     },
     {
         "id": 30,
@@ -237,7 +237,7 @@
         "descricao": "Preparando frontend e backend para demonstração.",
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-04-30",
-        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
     },
     {
         "id": 31,
@@ -245,6 +245,6 @@
         "descricao": "Exibindo dados do backend em uma página do portfólio.",
         "autor": "Ana Silva",
         "dataPublicacao": "2026-05-01",
-        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/ana-silva.jpg"
     }
 ]

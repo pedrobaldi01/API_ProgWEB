@@ -1,29 +1,23 @@
 const express = require("express");
 const cors = require("cors");
-const swaggerUI = require("swagger-ui-express");
-const fs = require("fs");
 const path = require("path");
-const jsYaml = require("js-yaml");
 const publicacoesIniciais = require("./posts.json");
 
 const app = express();
 const port = process.env.PORT || 3000;
-const swaggerFilePath = path.join(__dirname, "swagger.yaml");
-const swaggerDocument = jsYaml.load(fs.readFileSync(swaggerFilePath, "utf8"));
 const camposObrigatorios = ["titulo", "descricao", "autor", "dataPublicacao", "fotoAutor"];
 let publicacoes = [...publicacoesIniciais];
 
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
-app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 function validarPublicacao(dados) {
     return camposObrigatorios.filter((campo) => !dados[campo]);
 }
 
 app.get("/", (req, res) => {
-    res.send("API_ProgWeb - acesse /posts ou /api-docs");
+    res.send("API_ProgWeb - acesse /posts");
 });
 
 app.get("/posts", (req, res) => {
