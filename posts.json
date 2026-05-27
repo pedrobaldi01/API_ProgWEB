@@ -1,0 +1,250 @@
+[
+    {
+        "id": 1,
+        "titulo": "Primeiros passos com HTML",
+        "descricao": "Como organizar o conteúdo principal de uma página.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-04-01",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Estrutura semântica",
+        "descricao": "Elementos que tornam páginas mais claras e acessíveis.",
+        "autor": "Bruno Alves",
+        "dataPublicacao": "2026-04-02",
+        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Formulários na prática",
+        "descricao": "Campos e rótulos para receber dados corretamente.",
+        "autor": "Carla Mendes",
+        "dataPublicacao": "2026-04-03",
+        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Links e navegação",
+        "descricao": "Criando caminhos simples entre páginas do site.",
+        "autor": "Daniel Rocha",
+        "dataPublicacao": "2026-04-04",
+        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Imagens acessíveis",
+        "descricao": "A importância de textos alternativos objetivos.",
+        "autor": "Elisa Costa",
+        "dataPublicacao": "2026-04-05",
+        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Introdução ao CSS",
+        "descricao": "Aplicando cores, fontes e espaçamentos ao HTML.",
+        "autor": "Felipe Souza",
+        "dataPublicacao": "2026-04-06",
+        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Modelo de caixa",
+        "descricao": "Entendendo margem, borda e preenchimento.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-04-07",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "Layout com Grid",
+        "descricao": "Distribuindo conteúdos em colunas organizadas.",
+        "autor": "Bruno Alves",
+        "dataPublicacao": "2026-04-08",
+        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "Layout com Flexbox",
+        "descricao": "Alinhando itens de modo prático e responsivo.",
+        "autor": "Carla Mendes",
+        "dataPublicacao": "2026-04-09",
+        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+    },
+    {
+        "id": 10,
+        "titulo": "Media queries",
+        "descricao": "Adaptando a página para celular, tablet e desktop.",
+        "autor": "Daniel Rocha",
+        "dataPublicacao": "2026-04-10",
+        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+    },
+    {
+        "id": 11,
+        "titulo": "Acessibilidade web",
+        "descricao": "Pequenos cuidados para ampliar o público do site.",
+        "autor": "Elisa Costa",
+        "dataPublicacao": "2026-04-11",
+        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+    },
+    {
+        "id": 12,
+        "titulo": "Experiência do usuário",
+        "descricao": "Como tornar uma navegação mais intuitiva.",
+        "autor": "Felipe Souza",
+        "dataPublicacao": "2026-04-12",
+        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "JavaScript no navegador",
+        "descricao": "Adicionando comportamento às páginas HTML.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-04-13",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    },
+    {
+        "id": 14,
+        "titulo": "Variáveis e tipos",
+        "descricao": "Armazenando informações para usar no código.",
+        "autor": "Bruno Alves",
+        "dataPublicacao": "2026-04-14",
+        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+    },
+    {
+        "id": 15,
+        "titulo": "Funções reutilizáveis",
+        "descricao": "Separando ações para evitar repetição.",
+        "autor": "Carla Mendes",
+        "dataPublicacao": "2026-04-15",
+        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+    },
+    {
+        "id": 16,
+        "titulo": "Eventos de clique",
+        "descricao": "Executando ações após interação do usuário.",
+        "autor": "Daniel Rocha",
+        "dataPublicacao": "2026-04-16",
+        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+    },
+    {
+        "id": 17,
+        "titulo": "Manipulação do DOM",
+        "descricao": "Alterando conteúdo exibido diretamente na página.",
+        "autor": "Elisa Costa",
+        "dataPublicacao": "2026-04-17",
+        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+    },
+    {
+        "id": 18,
+        "titulo": "Objetos JavaScript",
+        "descricao": "Agrupando dados relacionados em uma estrutura.",
+        "autor": "Felipe Souza",
+        "dataPublicacao": "2026-04-18",
+        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+    },
+    {
+        "id": 19,
+        "titulo": "Arrays e coleções",
+        "descricao": "Trabalhando com listas de informações.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-04-19",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    },
+    {
+        "id": 20,
+        "titulo": "Método map",
+        "descricao": "Criando uma nova lista a partir de dados existentes.",
+        "autor": "Bruno Alves",
+        "dataPublicacao": "2026-04-20",
+        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+    },
+    {
+        "id": 21,
+        "titulo": "Método filter",
+        "descricao": "Selecionando apenas os itens necessários.",
+        "autor": "Carla Mendes",
+        "dataPublicacao": "2026-04-21",
+        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+    },
+    {
+        "id": 22,
+        "titulo": "Tratamento de erros",
+        "descricao": "Mostrando mensagens claras quando algo falhar.",
+        "autor": "Daniel Rocha",
+        "dataPublicacao": "2026-04-22",
+        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+    },
+    {
+        "id": 23,
+        "titulo": "APIs do navegador",
+        "descricao": "Utilizando recursos disponíveis no front-end.",
+        "autor": "Elisa Costa",
+        "dataPublicacao": "2026-04-23",
+        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+    },
+    {
+        "id": 24,
+        "titulo": "Requisições HTTP",
+        "descricao": "Entendendo como cliente e servidor se comunicam.",
+        "autor": "Felipe Souza",
+        "dataPublicacao": "2026-04-24",
+        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+    },
+    {
+        "id": 25,
+        "titulo": "Fetch API",
+        "descricao": "Buscando dados externos com JavaScript.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-04-25",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    },
+    {
+        "id": 26,
+        "titulo": "JSON na prática",
+        "descricao": "Formato usado para transferir dados da API.",
+        "autor": "Bruno Alves",
+        "dataPublicacao": "2026-04-26",
+        "fotoAutor": "http://localhost:3000/imagens/bruno-alves.jpg"
+    },
+    {
+        "id": 27,
+        "titulo": "Node.js e Express",
+        "descricao": "Criando uma API simples para o portfólio.",
+        "autor": "Carla Mendes",
+        "dataPublicacao": "2026-04-27",
+        "fotoAutor": "http://localhost:3000/imagens/carla-mendes.jpg"
+    },
+    {
+        "id": 28,
+        "titulo": "Rotas REST",
+        "descricao": "Separando operações de consulta e cadastro.",
+        "autor": "Daniel Rocha",
+        "dataPublicacao": "2026-04-28",
+        "fotoAutor": "http://localhost:3000/imagens/daniel-rocha.jpg"
+    },
+    {
+        "id": 29,
+        "titulo": "Documentação Swagger",
+        "descricao": "Descrevendo endpoints e respostas da API.",
+        "autor": "Elisa Costa",
+        "dataPublicacao": "2026-04-29",
+        "fotoAutor": "http://localhost:3000/imagens/elisa-costa.jpg"
+    },
+    {
+        "id": 30,
+        "titulo": "Publicando o projeto",
+        "descricao": "Preparando frontend e backend para demonstração.",
+        "autor": "Felipe Souza",
+        "dataPublicacao": "2026-04-30",
+        "fotoAutor": "http://localhost:3000/imagens/felipe-souza.jpg"
+    },
+    {
+        "id": 31,
+        "titulo": "Integração com API",
+        "descricao": "Exibindo dados do backend em uma página do portfólio.",
+        "autor": "Ana Silva",
+        "dataPublicacao": "2026-05-01",
+        "fotoAutor": "http://localhost:3000/imagens/ana-silva.jpg"
+    }
+]

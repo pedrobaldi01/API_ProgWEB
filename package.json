@@ -1,0 +1,17 @@
+{
+  "name": "api_progweb",
+  "version": "1.0.0",
+  "description": "API_ProgWeb para o exercicio da Aula 10.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "js-yaml": "^4.1.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
