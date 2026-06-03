@@ -17,9 +17,19 @@ const jogosIniciais = [
     { nome: "Forager", categoria: "Aventura", ranking: 5 },
     { nome: "Horizon Zero Dawn", categoria: "RPG de Acao", ranking: 6 }
 ];
-const pool = new Pool(process.env.DATABASE_URL
+
+function normalizarDatabaseUrl(valor) {
+    if (!valor) {
+        return "";
+    }
+
+    return valor.replace(/^DATABASE_URL=/i, "").trim();
+}
+
+const databaseUrl = normalizarDatabaseUrl(process.env.DATABASE_URL || process.env.database_url);
+const pool = new Pool(databaseUrl
     ? {
-        connectionString: process.env.DATABASE_URL,
+        connectionString: databaseUrl,
         ssl: { rejectUnauthorized: false }
     }
     : {
@@ -99,14 +109,18 @@ app.get("/games", async (req, res) => {
         return res.json(result.rows);
     } catch (err) {
         console.error(err);
-        return res.status(500).json({ error: "An error occurred" });
+        return res.status(500).json({
+            error: "Erro ao acessar banco de dados",
+            code: err.code || "NO_CODE",
+            message: err.message
+        });
     }
 });
 
 app.post("/games", async (req, res) => {
     try {
-        await prepararTabelaGames();
         const { nome, categoria, ranking } = req.body;
+        await prepararTabelaGames();
         const query = "INSERT INTO games (nome, categoria, ranking) VALUES ($1, $2, $3) RETURNING *";
         const values = [nome, categoria, ranking];
         const result = await pool.query(query, values);
@@ -114,14 +128,18 @@ app.post("/games", async (req, res) => {
         return res.status(201).json(result.rows[0]);
     } catch (err) {
         console.error(err);
-        return res.status(500).json({ error: "An error occurred" });
+        return res.status(500).json({
+            error: "Erro ao acessar banco de dados",
+            code: err.code || "NO_CODE",
+            message: err.message
+        });
     }
 });
 
 app.put("/games/:id", async (req, res) => {
     try {
-        await prepararTabelaGames();
         const { nome, categoria, ranking } = req.body;
+        await prepararTabelaGames();
         const query = "UPDATE games SET nome = $1, categoria = $2, ranking = $3 WHERE id = $4 RETURNING *";
         const values = [nome, categoria, ranking, req.params.id];
         const result = await pool.query(query, values);
@@ -133,7 +151,11 @@ app.put("/games/:id", async (req, res) => {
         return res.json(result.rows[0]);
     } catch (err) {
         console.error(err);
-        return res.status(500).json({ error: "An error occurred" });
+        return res.status(500).json({
+            error: "Erro ao acessar banco de dados",
+            code: err.code || "NO_CODE",
+            message: err.message
+        });
     }
 });
 
@@ -149,7 +171,11 @@ app.delete("/games/:id", async (req, res) => {
         return res.status(204).send();
     } catch (err) {
         console.error(err);
-        return res.status(500).json({ error: "An error occurred" });
+        return res.status(500).json({
+            error: "Erro ao acessar banco de dados",
+            code: err.code || "NO_CODE",
+            message: err.message
+        });
     }
 });
 
