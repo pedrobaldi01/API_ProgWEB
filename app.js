@@ -9,13 +9,27 @@ const app = express();
 const port = process.env.PORT || 3000;
 const camposObrigatorios = ["titulo", "descricao", "autor", "dataPublicacao", "fotoAutor"];
 let publicacoes = [...publicacoesIniciais];
-const pool = new Pool({
-    user: process.env.DB_USER,
-    host: process.env.DB_HOST,
-    database: process.env.DB_NAME,
-    password: process.env.DB_PASSWORD,
-    port: process.env.DB_PORT
-});
+const jogosIniciais = [
+    { nome: "The Legend of Zelda", categoria: "Aventura", ranking: 1 },
+    { nome: "God of War", categoria: "Acao", ranking: 2 },
+    { nome: "Minecraft", categoria: "Sandbox", ranking: 3 },
+    { nome: "Subnautica", categoria: "Sobrevivencia", ranking: 4 },
+    { nome: "Forager", categoria: "Aventura", ranking: 5 },
+    { nome: "Horizon Zero Dawn", categoria: "RPG de Acao", ranking: 6 }
+];
+const pool = new Pool(process.env.DATABASE_URL
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false }
+    }
+    : {
+        user: process.env.DB_USER,
+        host: process.env.DB_HOST,
+        database: process.env.DB_NAME,
+        password: process.env.DB_PASSWORD,
+        port: process.env.DB_PORT,
+        ssl: process.env.DB_SSL === "true" ? { rejectUnauthorized: false } : undefined
+    });
 
 app.use(cors());
 app.use(express.json());
@@ -23,6 +37,24 @@ app.use(express.static(path.join(__dirname, "public")));
 
 function validarPublicacao(dados) {
     return camposObrigatorios.filter((campo) => !dados[campo]);
+}
+
+async function prepararTabelaGames() {
+    await pool.query(`
+        CREATE TABLE IF NOT EXISTS games (
+            id SERIAL PRIMARY KEY,
+            nome VARCHAR(255) NOT NULL,
+            categoria VARCHAR(255) NOT NULL,
+            ranking INTEGER NOT NULL
+        )
+    `);
+
+    for (const jogo of jogosIniciais) {
+        await pool.query(
+            "INSERT INTO games (nome, categoria, ranking) SELECT $1::varchar, $2::varchar, $3::integer WHERE NOT EXISTS (SELECT 1 FROM games WHERE nome = $1::varchar)",
+            [jogo.nome, jogo.categoria, jogo.ranking]
+        );
+    }
 }
 
 app.get("/", (req, res) => {
@@ -61,7 +93,8 @@ app.post("/users", async (req, res) => {
 
 app.get("/games", async (req, res) => {
     try {
-        const result = await pool.query("SELECT * FROM games ORDER BY id");
+        await prepararTabelaGames();
+        const result = await pool.query("SELECT * FROM games ORDER BY ranking, id");
 
         return res.json(result.rows);
     } catch (err) {
@@ -72,6 +105,7 @@ app.get("/games", async (req, res) => {
 
 app.post("/games", async (req, res) => {
     try {
+        await prepararTabelaGames();
         const { nome, categoria, ranking } = req.body;
         const query = "INSERT INTO games (nome, categoria, ranking) VALUES ($1, $2, $3) RETURNING *";
         const values = [nome, categoria, ranking];
@@ -86,6 +120,7 @@ app.post("/games", async (req, res) => {
 
 app.put("/games/:id", async (req, res) => {
     try {
+        await prepararTabelaGames();
         const { nome, categoria, ranking } = req.body;
         const query = "UPDATE games SET nome = $1, categoria = $2, ranking = $3 WHERE id = $4 RETURNING *";
         const values = [nome, categoria, ranking, req.params.id];
@@ -104,6 +139,7 @@ app.put("/games/:id", async (req, res) => {
 
 app.delete("/games/:id", async (req, res) => {
     try {
+        await prepararTabelaGames();
         const result = await pool.query("DELETE FROM games WHERE id = $1 RETURNING *", [req.params.id]);
 
         if (result.rows.length === 0) {
