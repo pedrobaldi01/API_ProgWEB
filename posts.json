@@ -19,9 +19,15 @@
         "id": 3,
         "titulo": "Formulários na prática",
         "descricao": "Campos e rótulos para receber dados corretamente.",
+<<<<<<< HEAD
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-05-24",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
+=======
+        "autor": "Lucas Andrade",
+        "dataPublicacao": "2026-04-03",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/lucas-andrade.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 4,
@@ -35,17 +41,29 @@
         "id": 5,
         "titulo": "Imagens acessíveis",
         "descricao": "A importância de textos alternativos objetivos.",
+<<<<<<< HEAD
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-05-08",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
+=======
+        "autor": "Sofia Martins",
+        "dataPublicacao": "2026-04-05",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/sofia-martins.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 6,
         "titulo": "Introdução ao CSS",
         "descricao": "Aplicando cores, fontes e espaçamentos ao HTML.",
+<<<<<<< HEAD
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-03-07",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
+=======
+        "autor": "Rafaela Moreira",
+        "dataPublicacao": "2026-04-06",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/rafaela-moreira.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 7,
@@ -67,9 +85,15 @@
         "id": 9,
         "titulo": "Layout com Flexbox",
         "descricao": "Alinhando itens de modo prático e responsivo.",
+<<<<<<< HEAD
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-01-30",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
+=======
+        "autor": "Lucas Andrade",
+        "dataPublicacao": "2026-04-09",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/lucas-andrade.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 10,
@@ -83,17 +107,29 @@
         "id": 11,
         "titulo": "Acessibilidade web",
         "descricao": "Pequenos cuidados para ampliar o público do site.",
+<<<<<<< HEAD
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-03-27",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
+=======
+        "autor": "Sofia Martins",
+        "dataPublicacao": "2026-04-11",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/sofia-martins.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 12,
         "titulo": "Experiência do usuário",
         "descricao": "Como tornar uma navegação mais intuitiva.",
+<<<<<<< HEAD
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-05-27",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
+=======
+        "autor": "Rafaela Moreira",
+        "dataPublicacao": "2026-04-12",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/rafaela-moreira.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 13,
@@ -115,9 +151,15 @@
         "id": 15,
         "titulo": "Funções reutilizáveis",
         "descricao": "Separando ações para evitar repetição.",
+<<<<<<< HEAD
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-03-22",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
+=======
+        "autor": "Lucas Andrade",
+        "dataPublicacao": "2026-04-15",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/lucas-andrade.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 16,
@@ -131,17 +173,23 @@
         "id": 17,
         "titulo": "Manipulação do DOM",
         "descricao": "Alterando conteúdo exibido diretamente na página.",
+<<<<<<< HEAD
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-04-30",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
+=======
+        "autor": "Sofia Martins",
+        "dataPublicacao": "2026-04-17",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/sofia-martins.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 18,
         "titulo": "Objetos JavaScript",
         "descricao": "Agrupando dados relacionados em uma estrutura.",
-        "autor": "Felipe Souza",
+        "autor": "Rafaela Moreira",
         "dataPublicacao": "2026-04-18",
-        "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/rafaela-moreira.jpg"
     },
     {
         "id": 19,
@@ -163,9 +211,15 @@
         "id": 21,
         "titulo": "Método filter",
         "descricao": "Selecionando apenas os itens necessários.",
+<<<<<<< HEAD
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-05-03",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
+=======
+        "autor": "Lucas Andrade",
+        "dataPublicacao": "2026-04-21",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/lucas-andrade.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 22,
@@ -179,17 +233,29 @@
         "id": 23,
         "titulo": "APIs do navegador",
         "descricao": "Utilizando recursos disponíveis no front-end.",
+<<<<<<< HEAD
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-03-25",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
+=======
+        "autor": "Sofia Martins",
+        "dataPublicacao": "2026-04-23",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/sofia-martins.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 24,
         "titulo": "Requisições HTTP",
         "descricao": "Entendendo como cliente e servidor se comunicam.",
+<<<<<<< HEAD
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-03-29",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
+=======
+        "autor": "Rafaela Moreira",
+        "dataPublicacao": "2026-04-24",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/rafaela-moreira.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 25,
@@ -211,9 +277,15 @@
         "id": 27,
         "titulo": "Node.js e Express",
         "descricao": "Criando uma API simples para o portfólio.",
+<<<<<<< HEAD
         "autor": "Carla Mendes",
         "dataPublicacao": "2026-05-12",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/carla-mendes.jpg"
+=======
+        "autor": "Lucas Andrade",
+        "dataPublicacao": "2026-04-27",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/lucas-andrade.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 28,
@@ -227,17 +299,29 @@
         "id": 29,
         "titulo": "Documentação Swagger",
         "descricao": "Descrevendo endpoints e respostas da API.",
+<<<<<<< HEAD
         "autor": "Elisa Costa",
         "dataPublicacao": "2026-05-06",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/elisa-costa.jpg"
+=======
+        "autor": "Sofia Martins",
+        "dataPublicacao": "2026-04-29",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/sofia-martins.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 30,
         "titulo": "Publicando o projeto",
         "descricao": "Preparando frontend e backend para demonstração.",
+<<<<<<< HEAD
         "autor": "Felipe Souza",
         "dataPublicacao": "2026-03-13",
         "fotoAutor": "https://api-progweb.onrender.com/imagens/felipe-souza.jpg"
+=======
+        "autor": "Rafaela Moreira",
+        "dataPublicacao": "2026-04-30",
+        "fotoAutor": "https://api-progweb.onrender.com/imagens/rafaela-moreira.jpg"
+>>>>>>> refs/remotes/origin/main
     },
     {
         "id": 31,
