@@ -7,7 +7,8 @@ const SECRET = 'minha_chave_super_secreta';
 
 
 
-router.post('/login', (req, res) => {
+router.post('/login', async (req, res) => {
+    console.log(req);
     const { email, password } = req.body;
 
     /* VALIDA LOGIN */
