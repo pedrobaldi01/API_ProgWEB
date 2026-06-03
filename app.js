@@ -106,7 +106,7 @@ app.post("/users", async (req, res) => {
     }
 });
 
-app.get("/games", verifyToken, async (req, res) => {
+app.get("/games", async (req, res) => {
     try {
         await prepararTabelaGames();
         const result = await pool.query("SELECT * FROM games ORDER BY ranking, id");
