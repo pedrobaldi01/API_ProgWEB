@@ -17,11 +17,7 @@ const jogosIniciais = [
     { nome: "Forager", categoria: "Aventura", ranking: 5 },
     { nome: "Horizon Zero Dawn", categoria: "RPG de Acao", ranking: 6 }
 ];
-/* IMPORTA ROTA DE LOGIN */
-const authRoutes = require('./routes/auth');
-app.use(authRoutes);
-/* IMPORTA MIDDLEWARE */
-const verifyToken = require('./middlewares/verifyToken');
+
 
 function normalizarDatabaseUrl(valor) {
     if (!valor) {
@@ -48,6 +44,11 @@ const pool = new Pool(databaseUrl
 
 app.use(cors());
 app.use(express.json());
+/* IMPORTA ROTA DE LOGIN */
+const authRoutes = require('./routes/auth');
+app.use(authRoutes);
+/* IMPORTA MIDDLEWARE */
+const verifyToken = require('./middlewares/verifyToken');
 app.use(express.static(path.join(__dirname, "public")));
 
 function validarPublicacao(dados) {
@@ -106,7 +107,7 @@ app.post("/users", async (req, res) => {
     }
 });
 
-app.get("/games", async (req, res) => {
+app.get("/games", verifyToken, async (req, res) => {
     try {
         await prepararTabelaGames();
         const result = await pool.query("SELECT * FROM games ORDER BY ranking, id");
